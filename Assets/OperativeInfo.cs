@@ -10,8 +10,8 @@ namespace AssemblyCSharp
 
 		//biographic info
 		public bool Married;
-		public int numberChildren;
-		public float bankBalance;
+		public int NumberChildren;
+		public float BankBalance;
 
 		//secrets (blackmail info)
 		public List<PersonalSecret> secrets;
@@ -24,7 +24,7 @@ namespace AssemblyCSharp
 		//personality traits
 		public float Cooperation;
 		public float Greed;
-		public float Fear;
+		public float Paranoia;
 
 		public OperativeInfo ()
 		{
